@@ -1,0 +1,28 @@
+{
+  "name": "comming-soon",
+  "version": "0.0.1",
+  "description": "Coming Soon",
+  "private": true,
+  "scripts": {
+    "dev": "webpack --mode development  --watch",
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FBW-12/coming-soon.git"
+  },
+  "author": "Oliver",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FBW-12/coming-soon/issues"
+  },
+  "homepage": "https://github.com/FBW-12/coming-soon#readme",
+  "dependencies": {
+    "moment": "^2.24.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3"
+  }
+}
