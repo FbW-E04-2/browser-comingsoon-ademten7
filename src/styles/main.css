@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+body,
+body * {
+  box-sizing: border-box;
+  font-family: "Lobster", cursive;
+}
+
+.container {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  display: flex;
+  justify-content: space-between;
+}
+.container .card-img-overlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container .count {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .new-year {
+  padding: 15px;
+  background: rgba(146, 139, 139, 0.2);
+  -webkit-backdrop-filter: blur(-7px);
+          backdrop-filter: blur(-7px);
+  background-clip: padding-box;
+  border-radius: 20px;
+  box-shadow: inset 12px 12px 16px 0 rgba(0, 0, 0, 0.644), inset -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+  overflow: hidden;
+  -webkit-animation: newyear 4s infinite linear;
+          animation: newyear 4s infinite linear;
+}
+@-webkit-keyframes newyear {
+  0% {
+    transform: rotateX(1turn);
+  }
+  100% {
+    transform: rotateX(0.5turn);
+  }
+}
+@keyframes newyear {
+  0% {
+    transform: rotateX(1turn);
+  }
+  100% {
+    transform: rotateX(0.5turn);
+  }
+}
+@-webkit-keyframes paras {
+  0% {
+    transform: rotateY(1turn);
+  }
+  100% {
+    transform: rotateY(0.5turn);
+  }
+}
+@keyframes paras {
+  0% {
+    transform: rotateY(1turn);
+  }
+  100% {
+    transform: rotateY(0.5turn);
+  }
+}
+.container .para {
+  display: flex;
+  margin-top: 3em;
+  font-size: 2rem;
+  margin-left: 30px;
+  padding: 15px;
+  background: rgba(146, 139, 139, 0.2);
+  -webkit-backdrop-filter: blur(-7px);
+          backdrop-filter: blur(-7px);
+  background-clip: padding-box;
+  border-radius: 20px;
+  box-shadow: inset 12px 12px 16px 0 rgba(0, 0, 0, 0.644), inset -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+  overflow: hidden;
+  -webkit-animation: paras 4s infinite linear;
+          animation: paras 4s infinite linear;
+}
+.container .para4 {
+  color: skyblue;
+  -webkit-animation: newyear 1s infinite linear;
+          animation: newyear 1s infinite linear;
+}
+.container .para3 {
+  color: skyblue;
+  -webkit-animation: paras 60s infinite linear;
+          animation: paras 60s infinite linear;
+}
+.container .para2 {
+  -webkit-animation: paras 500s infinite linear;
+          animation: paras 500s infinite linear;
+}
+.container .para1 {
+  -webkit-animation: paras 86400s infinite linear;
+          animation: paras 86400s infinite linear;
+}
+.container span {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  text-align: center;
+}
+.container .card-img {
+  height: 90vh;
+}
+
+.coming-soon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.coming-soon .btn {
+  background: linear-gradient(90deg, rgba(162, 21, 16, 0.893995098) 0%, #347a48 8%, #cc7d15 17%, #f10f7a 31%, #6ced06 47%, #eeb00a 68%, #deee02 84%, #ee2704 94%);
+  border: none;
+}
+.coming-soon .head-coming,
+.coming-soon .lorem {
+  padding: 15px;
+  background: linear-gradient(90deg, rgba(162, 21, 16, 0.893995098) 0%, #347a48 8%, #cc7d15 17%, #f10f7a 31%, #6ced06 47%, #eeb00a 68%, #deee02 84%, #ee2704 94%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.644);
+}
+.coming-soon .btn {
+  box-shadow: 12px 12px 16px 0 rgba(255, 255, 255, 0.3) inset, -8px -8px 12px 0 rgba(0, 0, 0, 0.25) inset;
+}
+.coming-soon .icons {
+  margin: 0 auto;
+  width: 75%;
+  text-align: center;
+  margin-top: 2em;
+  font-size: 25px;
+}
+.coming-soon i {
+  margin-left: 2em;
+}
+.coming-soon .fa-facebook {
+  color: #1a0dab;
+}
+.coming-soon .fa-instagram {
+  color: #ff006a;
+}
+.coming-soon .fa-twitter {
+  color: #1d9bf0;
+}
+.coming-soon .fa-pinterest {
+  color: red;
+}
+.coming-soon .fa-linkedin {
+  color: #1a0dab;
+}/*# sourceMappingURL=main.css.map */
